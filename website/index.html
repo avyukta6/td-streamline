@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD Streamline - Intelligent Banking Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">TD</span> Streamline
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#loans">Smart Loans</a></li>
+                <li><a href="#personalization">Personalization</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#get-started" class="nav-btn">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Banking Powered by Intelligence</h1>
+            <p>Experience the future of personal finance with TD Streamline — smarter lending, personalized recommendations, and faster decisions.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Apply Now</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-graphic">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+                <i class="fas fa-brain"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Overview -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose TD Streamline?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightning-bolt"></i>
+                    </div>
+                    <h3>Instant Pre-Qualification</h3>
+                    <p>AI-powered credit assessment analyzes your financial profile in seconds, not days.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Smart Rate Optimization</h3>
+                    <p>Dynamic interest rates tailored to your risk profile and financial behavior.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>Personalized Insights</h3>
+                    <p>Get recommendations based on your spending patterns and financial goals.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Expert Review</h3>
+                    <p>High-risk applications receive personal attention from financial advisors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart Loans Section -->
+    <section id="loans" class="loans">
+        <div class="container">
+            <div class="section-header">
+                <h2>Smart Personal Loans</h2>
+                <p>Financing tailored to your needs</p>
+            </div>
+            <div class="loans-content">
+                <div class="loan-info">
+                    <h3>Personal Loans from $1,000 to $25,000</h3>
+                    <p>Whether you're consolidating debt, funding a project, or managing life's expenses, TD Streamline offers flexible loan solutions with competitive rates.</p>
+                    <ul class="loan-features">
+                        <li><strong>Quick Decisions:</strong> AI pre-qualification within minutes</li>
+                        <li><strong>Flexible Terms:</strong> Customizable repayment schedules</li>
+                        <li><strong>Fair Rates:</strong> Competitive pricing based on your profile</li>
+                        <li><strong>Micro-Business Support:</strong> Special programs for entrepreneurs</li>
+                    </ul>
+                </div>
+                <div class="loan-calculator">
+                    <h4>Quick Calculator</h4>
+                    <div class="calculator-input">
+                        <label>Loan Amount</label>
+                        <input type="range" min="1000" max="25000" value="5000" class="slider" id="loanSlider">
+                        <span id="loanAmount">$5,000</span>
+                    </div>
+                    <div class="calculator-display">
+                        <p><strong>Estimated Monthly Payment:</strong></p>
+                        <p class="result" id="monthlyPayment">$150 - $200</p>
+                        <p class="disclaimer">*Based on current rates and 12-month term</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI-Powered Personalization -->
+    <section id="personalization" class="personalization">
+        <div class="container">
+            <h2>AI-Powered Personalization Module</h2>
+            <p class="section-subtitle">Recommendations built just for you</p>
+            <div class="personalization-grid">
+                <div class="personalization-card">
+                    <div class="card-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h4>Spending Analysis</h4>
+                    <p>Our AI learns from your spending habits to identify savings opportunities and financial patterns.</p>
+                </div>
+                <div class="personalization-card">
+                    <div class="card-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h4>Savings Optimization</h4>
+                    <p>Get personalized recommendations for savings accounts and investment products that match your goals.</p>
+                </div>
+                <div class="personalization-card">
+                    <div class="card-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h4>Portfolio Insights</h4>
+                    <p>Discover investment opportunities aligned with your risk tolerance and financial objectives.</p>
+                </div>
+                <div class="personalization-card">
+                    <div class="card-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Product Recommendations</h4>
+                    <p>Tailored suggestions for credit cards, accounts, and financial tools that enhance your banking experience.</p>
+                </div>
+            </div>
+            <div class="personalization-stats">
+                <div class="stat">
+                    <h5>15-20%</h5>
+                    <p>Customers who act on personalized recommendations</p>
+                </div>
+                <div class="stat">
+                    <h5>Avg. $2,500+</h5>
+                    <p>Additional savings identified annually</p>
+                </div>
+                <div class="stat">
+                    <h5>Real-Time</h5>
+                    <p>Recommendations updated continuously</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How TD Streamline Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Apply Online</h4>
+                    <p>Complete a simple application with your financial information</p>
+                </div>
+                <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>AI Analysis</h4>
+                    <p>Our system analyzes credit history, spending patterns, and repayment behavior</p>
+                </div>
+                <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Instant Decision</h4>
+                    <p>Get pre-qualified with a personalized rate in minutes</p>
+                </div>
+                <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h4>Funding</h4>
+                    <p>Receive funds quickly with flexible repayment options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="get-started" class="cta">
+        <div class="container">
+            <h2>Ready to Experience Smarter Banking?</h2>
+            <p>Join thousands of customers who are already enjoying personalized financial insights and faster loan decisions with TD Streamline.</p>
+            <button class="btn btn-large">Start Your Application Today</button>
+            <p class="cta-note">✓ Takes less than 5 minutes • ✓ No obligation • ✓ Instant decision</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h5>TD Streamline</h5>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Products</h5>
+                <ul>
+                    <li><a href="#">Personal Loans</a></li>
+                    <li><a href="#">Business Loans</a></li>
+                    <li><a href="#">Savings Accounts</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Support</h5>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Legal</h5>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TD Bank. All rights reserved. TD Streamline is a prototype for intelligent banking solutions.</p>
+        </div>
+    </footer>
+
+    <!-- AI Chatbot -->
+    <div class="chatbot-widget">
+        <div class="chatbot-header">
+            <h5>TD Streamline Assistant</h5>
+            <button class="chatbot-close" id="chatbotClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot-message">
+                <p>Hello! 👋 I'm your TD Streamline Assistant. How can I help you today? You can ask me about:</p>
+                <ul style="margin-top: 10px; margin-left: 15px;">
+                    <li>Loan eligibility</li>
+                    <li>How TD Streamline works</li>
+                    <li>Interest rates</li>
+                    <li>Application process</li>
+                </ul>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Ask me something...">
+            <button id="chatSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-comments"></i>
+        <span class="badge">1</span>
+    </button>
+
+    <script src="chatbot.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
